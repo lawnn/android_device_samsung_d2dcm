@@ -31,5 +31,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Mozc
 
+# Omni Apps
+PRODUCT_PACKAGES += \
+    OmniSwitch
+
 # Inherit from d2-common
 $(call inherit-product, device/samsung/d2-common/d2-common.mk)
